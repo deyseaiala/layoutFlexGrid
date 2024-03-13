@@ -1,0 +1,31 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+#menu{
+    width: 100vw;
+    height: 70px;
+    background-color: #2a9d8f;
+}
+
+#conteiner{
+    display: flex;
+    flex-direction: row;
+}
+
+#sidebar{
+    width: 200px;
+    height: 100vw;
+    background-color: #264653;
+}
+
+#content{
+    width: 100vw;
+    height: 100vw;
+    background-color: #e9c46a;
+}
